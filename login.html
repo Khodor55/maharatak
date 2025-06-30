@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maharatak | login</title>
+    <link rel="icon" href="img/logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body dir="rtl">
+    <header>
+      <div class="container">
+        <div class="logo">
+          <a href="index.html">
+            <img src="img/logo.png" alt="" />
+          </a>
+        </div>
+
+        <nav>
+          <div class="closeMenuBtn" onclick="closeHeaderMenu()">
+            <i class="fa-solid fa-circle-xmark"></i>
+          </div>
+          <a onclick="closeHeaderMenu()" href="#">رئيسية</a>
+          <a onclick="closeHeaderMenu()" href="#">مميزات</a>
+          <a onclick="closeHeaderMenu()" href="#">نبذة عنا</a>
+          <a  onclick="closeHeaderMenu()"href="#">الدروس</a>
+          <a onclick="closeHeaderMenu()" href="#">تواصل معنا</a>
+        </nav>
+        <div class="btns">
+        
+<button>
+   <a href="login.html"></a>
+            <i class="fa-solid fa-right-to-bracket"></i> تسجيل دخول
+          </a> 
+          </button>
+        
+        
+          <div class="openMenuBtn" onclick="openHeaderMenu()">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+<section class="login">
+    <form action="#">
+      <div class="input_card">
+        <label for="">ادخل الايميل</label>
+        <input type="email" placeholder="enter your email">
+      </div>
+      <div class="input_card">
+        <label for="">ادخل الباسورد</label>
+        <input type="password" placeholder="enter your password">
+      </div>
+
+      <span class="or">أو</span>
+      <div class="accounts">
+        <a href=""><i class="fa-brands fa-google"></i> <span>تسجيل من خلال جوحل</span></a>
+        <a href=""><i class="fa-brands fa-facebook"></i><span>تسجيل من خلال فيسبوك</span></a>
+      </div>
+      <span>ليس لديك حساب؟ <a href="signUp.html">انشئ حساب</a></span>
+      <button>تسجيل</button>
+    </form>
+</section>
+    <footer>
+      <div class="container">
+        <div class="nav">
+          <h1>توصل</h1>
+     
+        <nav>
+          <a href=""><i class="fa-brands fa-whatsapp"></i> whatsapp</a>
+          <a href=""><i class="fa-brands fa-facebook"></i> facebook</a>
+          <a href=""><i class="fa-brands fa-instagram"></i> instagram</a>
+        </nav>
+           </div>
+           <div class="nav">
+            <h1>الصفحة</h1>
+            <nav>
+<a href="">رئيسية</a>
+          <a href="">مميزات</a>
+          <a href="">نبذة عنا</a>
+          <a href="">الدروس</a>
+          <a href="">تواصل معنا</a>
+            </nav>
+           </div>
+           <div class="nav">
+            <img src="img/logo.png" alt="">
+           </div>
+      </div>
+    </footer>
+    <script src="js/index.js"></script>
+  </body>
+</html>
