@@ -454,8 +454,8 @@ footer .container .nav img{
   }
 } 
 @media (max-width:600px){
-  header .container{
-    flex-direction: column;
+header .container .logo{
+    width: 140px;
   }
   
 .about .container{
